@@ -1,0 +1,178 @@
+* {
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.total {
+    width: 100vw;
+    height: 100vh;
+    background: gray;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: yellow;
+    height: 15%;
+
+}
+
+.filters-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45%;
+    background: white;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: rgb(249, 202, 36);
+}
+
+.green {
+    background: green;
+}
+
+.black {
+    background: black;
+}
+
+.box {
+    width: 17%;
+    height: 65%;
+    border-radius: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.5);
+}
+
+.function-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    height: 40%;
+    width: 7%;
+    border-radius: 5px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+}
+
+.add:hover {
+    background: blue;
+    border-radius: 5px;
+}
+
+.delete {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.delete:hover {
+    background: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lower {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 78%;
+    padding: 2%;
+    overflow: auto;
+}
+
+.modal {
+    height: 40%;
+    width: 40%;
+    display: flex;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    box-shadow: 0px 0px 25px 17px;
+}
+
+.modal-msg {
+    width: 75%;
+    height: 100%;
+    background: white;
+    font-size: 2rem;
+}
+
+.modal-filters-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background: wheat;
+}
+
+.modal-filter {
+    height: 10%;
+    width: 70%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-filter:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease 0s;
+}
+
+.active-filter {
+    border: 5px solid darkcyan;
+}
+
+.ticket {
+    height: 30%;
+    width: 25%;
+    background: pink;
+    margin: 1%;
+}
+
+.ticket-color {
+    width: 100%;
+    height: 10%;
+    /* background: red; */
+}
+
+.ticket-id {
+    height: 15%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75%;
+    width: 100%;
+    background: wheat;
+    word-break: break-all;
+}
